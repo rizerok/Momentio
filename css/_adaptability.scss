@@ -1,0 +1,388 @@
+$tablet:"max-width:#{$screen-md - 1}";
+$small-tablet:"max-width:#{$screen-sm - 1}";
+$phone:"max-width:#{$screen-xs}";
+@media (#{$tablet}){
+	#main-menu{
+		height:115%;
+		padding-bottom:15%;
+	}
+	#service .quote .bg{
+		background:url(../pics/parallax-quote.jpg) 50% 50% no-repeat;
+		background-size:cover;
+		img{
+			display:none;
+		}
+	}
+	#clients-block{
+		$row-count:6;
+		$img-height:140px;
+		height:$row-count*$img-height;
+		.bg{
+			background:url(../pics/parallax-clients.jpg) 50% 50% no-repeat;
+			background-size:cover;
+			img{
+				display:none;
+			}
+		}
+	}
+	#portfolio .carousel{
+		.carousel-indicators{
+			bottom:-60px;
+			width:80%;
+			margin-left:-40%;
+			li{
+				background:#cfd4d5;
+				border:0;
+				margin:0 10px;
+				width: 20px;
+    			height: 20px;
+			}
+			li.active{
+				width: 20px;
+    			height: 20px;
+			}
+		}
+	}
+	#office{
+		.block{
+			.wrapper{
+				width:100%;
+				padding:0 0 0 20px;
+				h2{
+					margin:0 20px 0 0;
+				}
+				ul .social ul{
+					margin-top:10px;
+					li:first-child{
+						margin-left:0;
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width:#{$screen-sm + 50px}){
+	#advertise .bg{
+			background-position:20% 50%;
+	}
+}
+@media (#{$small-tablet}){
+	#main-head{
+		$big-text-height:130px;
+		$h1-line-height:90px;
+		$h1-font-size:50px;
+		$slogan-line-height:$big-text-height - $h1-line-height;
+		$slogan-font-size:18px;
+		.big-text{
+			height: $big-text-height;
+			margin-top:-1 * ($big-text-height/2 + $navbar-height);
+			h1{
+				font-size:$h1-font-size;
+				line-height:$h1-line-height;
+				span{
+					line-height: $h1-line-height;
+				}
+			}
+			p{
+				font-size:$slogan-font-size;
+				line-height:$slogan-line-height;
+			}
+		}
+	}
+	#advertise{
+		.bg{
+			background-position:0% 50%;
+		}
+		.browsers{
+			display:none;
+		}
+	}
+	#service{
+		.graphic-design:after{
+			display:none;
+		}
+		.web-design:after{
+			display:none;
+		}
+		.web-programing:before{
+			display:none;
+		}
+		.full-support:before{
+			display:none;
+		}
+		.col-sm-6{
+			.ico{
+				&:before{
+					margin-top:0;
+				}
+			}
+		}
+		.col-sm-6.right{
+			.ico{
+				float:left;
+			}
+			.text{
+				$ico-width:86px;
+				margin:40px 0 0 $ico-width;
+				h3,p{
+					text-align:left;
+				}
+			}
+		}
+	}
+	#portfolio .carousel {
+    	.row{
+    		margin:0;
+    	}
+    	.col-xs-3{
+    		margin:0;
+    		padding:0;
+    	}
+	}
+	#carousel-team{
+		height:auto;
+		position:relative;
+		.carousel-inner{
+			height:auto;
+		}
+		.item{
+			height:auto;
+			overflow:hidden;
+			padding-top:85px;
+			position:relative;
+			display:block;
+			.left-container{
+				bottom:0;
+				height:auto;
+				position:relative;
+				padding-left:20px;
+				width:30%;
+				.photo{
+					float:right;
+					height:250px;
+					position:relative;
+					width:100%;
+					img{
+						bottom:0;
+						height:auto;
+						left:0;
+						position:absolute;
+						width:100%;
+					}
+				}
+			}
+			.right-container{
+				width:70%;
+				.name{
+					position:absolute;
+					top:0;
+					left:0;
+					width:100%;
+					h3{
+						font-size:20px;
+						line-height:20px;
+						width:100%;
+					}
+					p{
+						font-size:15px;
+						line-height:15px;
+					}
+				}
+				.text{
+					padding:0 20px;
+				}
+			}
+		}
+		.row{//carousel indicators
+			&.carousel-indicators{
+			    display:none;
+			}
+		}
+	}
+	#about-us{
+		.skills{
+			.col-xs-6{
+				margin-bottom:20px;
+			}
+		}
+	}
+	#office{
+		.block{
+			height:300px;
+			top:-300px;
+			width:100%;
+			.wrapper{
+				width:100%;
+				padding:0 0 0 20px;
+				h2{
+					margin:0 20px 0 0;
+				}
+				ul .social ul{
+					margin-top:10px;
+					li:first-child{
+						margin-left:0;
+					}
+				}
+			}
+		}
+		#map{
+			margin-top:300px;
+		}
+	}
+
+} 
+@media (#{$phone}){
+	$block-distance:30px;
+	h2{
+		padding-top:$block-distance+20;
+		padding-bottom:$block-distance;
+	}
+	h2.ver2{
+		padding-left:18px;
+		padding-right:18px;
+	}
+	.navbar{
+		min-height:60px;
+		line-height:60px;
+		img{
+			height:41px;
+			margin-top:-2.5px;
+			width:41px;
+		}
+	}
+	#main-head{
+		$big-text-height:110px;
+		$h1-line-height:80px;
+		$h1-font-size:40px;
+		$slogan-line-height:$big-text-height - $h1-line-height;
+		$slogan-font-size:16px;
+		.big-text{
+			height: $big-text-height;
+			margin-top:-1 * ($big-text-height/2 + $navbar-height);
+			h1{
+				font-size:$h1-font-size;
+				line-height:$h1-line-height;
+				span{
+					line-height: $h1-line-height;
+					padding:0 20px;
+				}
+			}
+			p{
+				font-size:$slogan-font-size;
+				line-height:$slogan-line-height;
+			}
+		}
+	}
+	#service{
+		$ico-width:60px;
+		padding-top:$block-distance;
+		.col-sm-6{
+			.ico:before{
+				border-radius:$ico-width/2;
+				height:$ico-width;
+				line-height:$ico-width;
+				width:$ico-width;
+			}
+			.text{
+				margin:40px 0 0 $ico-width;
+			}
+		}
+		.col-sm-6.right{
+			.text{
+				margin:40px 0 0 $ico-width;
+			}
+		}
+		.quote{
+			margin-top:$block-distance;
+			.bg{
+				img{
+					max-width:none !important;
+				}
+			}
+		}
+	}
+	#work{ 
+		.reasons{
+    		margin-top:$block-distance;
+		}
+
+	}
+	#portfolio .carousel {
+    	margin: $block-distance 0 $block-distance+40px;
+    	.item .overlay a{
+			margin:38% 3px 0;
+    	}
+	}
+	#advertise{
+		.bg{
+			background:$primary-color;
+		}
+	}
+	#carousel-team {
+    	margin-top:$block-distance;
+    	.item{
+    		.left-container{
+				width:100%;
+				padding:0;
+				.photo{
+					float:none;
+					height:250px;
+					padding:0 20px;
+					position:static;
+					width:100%;
+					img{
+						position:static;
+						height:100%;
+						width:auto;
+					}
+				}
+    		}
+    		.right-container{
+				width:100%;
+				padding:0;
+				.text{
+					margin:20px 0 0;
+					max-width:none;
+					text-align:justify;
+				}
+    		}
+    	}
+	}
+	#about-us{
+		.skills{
+			margin-top:$block-distance;
+		}
+	}
+	#clients-block .img img{
+		max-width:125px;
+	}
+	#pricing{
+		padding-bottom: $block-distance;
+		.price-table{
+			margin-top:$block-distance;
+			.price-body{
+				ul{
+					padding-top:15px;
+					li{
+						line-height:30px;
+					}
+				}
+				a.button{
+					margin-top:30px;
+				}
+			}
+		}
+	}
+	#contact-us .enter-mail{
+		height:90px;
+		margin-top:30px;
+		.wrapper{
+			height:40px;
+			margin:0;
+		}
+		.button{
+			margin:10px 0 0;
+			width:100%;
+		}
+	}
+}

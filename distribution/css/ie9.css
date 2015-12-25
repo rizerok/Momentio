@@ -1,0 +1,22 @@
+#advertise:before {
+  background: #202835;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+#advertise:after {
+  background: #303a49;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0; }
+#advertise main {
+  display: none; }
+
+/*# sourceMappingURL=ie.css.map */

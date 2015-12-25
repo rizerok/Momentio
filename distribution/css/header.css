@@ -1,0 +1,170 @@
+html, body {
+  height: 100%;
+  font-family: "Questrial", Arial, Sans-serif;
+  position: relative; }
+
+.navbar {
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font: 20px/85px "Questrial", Arial, Sans-serif;
+  vertival-align: middle; }
+  .navbar a {
+    color: #fff; }
+  .navbar .right-el {
+    float: right;
+    height: 22px;
+    margin: 0 20px; }
+    .navbar .right-el .bar {
+      cursor: pointer; }
+      .navbar .right-el .bar:hover {
+        color: #428bca; }
+        .navbar .right-el .bar:hover .text {
+          padding-right: 5px; }
+    .navbar .right-el .fa {
+      font-size: 22px;
+      margin-left: 5px; }
+  .navbar img {
+    margin: 0 20px; }
+
+#main-head {
+  background: url("../pics/grass-15590032.jpg") 50% 50%;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  padding: 85px 20px 0; }
+  #main-head .md-container {
+    height: 100%;
+    padding: 0;
+    position: relative; }
+  #main-head .big-text {
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    height: 210px;
+    margin-top: -190px;
+    top: 50%;
+    position: absolute;
+    text-align: center;
+    width: 100%; }
+    #main-head .big-text h1 {
+      font-size: 100px;
+      line-height: 145px;
+      margin: 0; }
+      #main-head .big-text h1 span {
+        box-sizing: content-box;
+        border-bottom: 1px solid #fff;
+        display: inline-block;
+        line-height: 145px;
+        padding: 0 50px; }
+    #main-head .big-text p {
+      font-size: 25px;
+      line-height: 65px;
+      margin: 0; }
+
+.button {
+  background: #fb6816;
+  border-radius: 4px;
+  box-shadow: 0px 4px 0px 0px #ab3c05;
+  color: #fff;
+  display: block;
+  font-size: 15px;
+  line-height: 45px;
+  margin: 50px auto 4px;
+  text-align: center;
+  text-decoration: none;
+  width: 170px; }
+  .button:hover {
+    color: #fff;
+    background: #fb782f;
+    box-shadow: 0px 4px 0px 0px #dd4d06;
+    text-decoration: none; }
+
+#main-menu {
+  background: #202835;
+  display: none;
+  height: 100%;
+  overflow-y: auto;
+  position: fixed;
+  padding: 0 25px;
+  right: -280px;
+  top: 0;
+  width: 280px;
+  z-index: 2000; }
+  #main-menu .close {
+    color: #da5104;
+    cursor: pointer;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    right: 0;
+    width: 50px;
+    text-align: center;
+    text-shadow: none;
+    opacity: 1; }
+    #main-menu .close:hover {
+      color: #fff; }
+  #main-menu .menu-header {
+    margin-top: 30px;
+    text-align: center; }
+    #main-menu .menu-header p {
+      border-bottom: 1px solid #595C62;
+      color: #da5104;
+      font-size: 20px;
+      margin: 10px 0 0;
+      padding: 0 0 15px; }
+  #main-menu ul.nav {
+    font-size: 17px;
+    padding: 10px 0 20px;
+    position: relative;
+    border-bottom: 1px solid #595C62; }
+    #main-menu ul.nav li {
+      line-height: 40px; }
+      #main-menu ul.nav li.active a {
+        color: #334055 !important; }
+      #main-menu ul.nav li a {
+        color: #CFD0D2;
+        padding: 0 0 0 20px;
+        text-decoration: none; }
+        #main-menu ul.nav li a:hover {
+          background-color: transparent;
+          color: #fff; }
+        #main-menu ul.nav li a:focus {
+          background-color: transparent;
+          outline: none; }
+    #main-menu ul.nav .current {
+      background: #eee;
+      height: 40px;
+      position: absolute;
+      top: 10px;
+      width: 100%;
+      z-index: -1; }
+  #main-menu ul.social {
+    list-style: none;
+    padding: 7px 0 7px 20px; }
+    #main-menu ul.social li {
+      cursor: pointer;
+      display: inline-block;
+      font-size: 17px;
+      text-align: center;
+      width: 25px; }
+      #main-menu ul.social li a {
+        color: #b2b2b2;
+        display: block;
+        line-height: 25px;
+        text-decoration: none; }
+        #main-menu ul.social li a:hover {
+          color: #fff; }
+    #main-menu ul.social .fa-facebook:hover {
+      background: #3E5993; }
+    #main-menu ul.social .fa-google:hover {
+      background: #4385F5; }
+    #main-menu ul.social .fa-skype:hover {
+      background: #00B0F6; }
+    #main-menu ul.social .fa-youtube:hover {
+      background: #CC181E; }
+    #main-menu ul.social .fa-dribbble:hover {
+      background: #ca366e; }
+    #main-menu ul.social .fa-twitter:hover {
+      background: #00C3F8; }
+
+/*# sourceMappingURL=header.css.map */

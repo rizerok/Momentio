@@ -1,0 +1,40 @@
+//transition and animation
+#main-menu{
+	display:block !important;
+	right:-280px;
+	transition:right .4s ease;
+}
+#main-menu.show{
+	display:block;
+	right:0px;
+}
+#main-menu ul.social a{
+	transition:all .2s;
+}
+#main-menu ul.nav a{
+	transition:all .2s;
+}
+#main-menu ul.nav .current{
+	transition:all .2s;
+}
+.navbar .bar{
+	transition:all .2s;
+}
+.navbar .bar .text{
+	transition:padding-right .2s;
+}
+.button{
+	transition:all .1s;	
+}
+#work .reasons .reason{
+	transition:all .1s;
+}
+#portfolio .wr .overlay{
+	transition:opacity .2s;
+}
+#carousel-team .col-xs-4 .block{
+	transition:all .4s;
+}
+#office .social a{
+	transition:all .2s;
+}

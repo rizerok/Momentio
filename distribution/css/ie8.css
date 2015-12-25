@@ -1,0 +1,120 @@
+.navbar{
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+}
+.big-text{
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+}
+#main-menu ul .current{
+	display:none;
+}
+#main-menu ul .active{
+	color:#fff;
+}
+#service .graphic-design:after{
+	display:none;
+}
+#service  .web-design:after{
+	display:none;
+}
+#service .web-programing:before{
+	display:none;
+}
+#service .full-support:before{
+	display:none;
+}
+#service .col-sm-6 .ico:before{
+	margin-top:0;
+}
+#service .col-sm-6.right .ico{
+	float:left;
+}
+#service .col-sm-6.right .text{
+	margin:40px 0 0 86px;
+}
+#service .col-sm-6.right .text h3,#service .col-sm-6.right .text p{
+	text-align:left;
+}
+#service .quote{
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc202835,endColorstr=#cc202835);
+}
+#portfolio .wr .overlay{
+	display:none;
+}
+#portfolio .wr:hover .overlay{
+		display:block;
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccfb6816,endColorstr=#ccfb6816);
+}
+#carousel-team .carousel-indicators .block{
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#990000000,endColorstr=#990000000);
+}
+#clients-block{
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc202835,endColorstr=#cc202835);
+}
+#pricing{
+	text-align:center;
+}
+#pricing .price-table{
+	display:inline-block;
+	width:300px;
+}
+#main-head .big-text a.button{
+	position:relative;
+}
+#clients-block .row .col-md-3{
+	display:inline-block;
+	width:25%;
+}
+#portfolio .carousel-indicators li {
+	background:transparent url('../imgs/ie/gray-circle.png') !important;
+	line-height:10px;
+	height:10px;
+	position:relative;
+}
+#portfolio .carousel-indicators li.active {
+	background:transparent url('../imgs/ie/orange-circle.png') !important;
+	line-height:10px;
+	height:10px;
+	position:relative;
+}
+#service .col-sm-6 .ico:before{
+	background:transparent url('../imgs/ie/ico.png') !important;
+}
+#html5{
+	background:url('../imgs/ie/html5.png') !important;
+}
+#javascript{
+	background:url('../imgs/ie/javascript.png') !important;
+}
+#php{
+	background:url('../imgs/ie/php.png') !important;
+}
+#adobe{
+	background:url('../imgs/ie/adobe.png') !important;
+}
+#about-us .skills .col-xs-6{
+	margin-bottom:20px;
+}
+#about-us .skills .col-xs-6 canvas{
+	height:136px;
+}
+#office	.block{
+			height:300px;
+			top:-300px;
+			width:100%;
+		}
+#office	.block .wrapper{
+	width:100%;
+	padding:0 0 0 20px;
+}
+#office	.block .wrapper h2{
+	margin:0 20px 0 0;
+}
+#office	.block .wrapper	ul .social ul{
+	margin-top:10px;
+}
+#office	.block .wrapper ul li:first-child{
+	margin-left:0;
+}
+#map{
+	margin-top:300px;
+}

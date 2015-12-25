@@ -1,0 +1,18 @@
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+.#{$fa-css-prefix}-comments:before { content: $fa-var-comments; }
+.#{$fa-css-prefix}-html5:before { content: $fa-var-html5; }
+.#{$fa-css-prefix}-paint-brush:before { content: $fa-var-paint-brush; }
+.#{$fa-css-prefix}-pencil-square-o:before { content: $fa-var-pencil-square-o; }
+.#{$fa-css-prefix}-facebook:before { content: $fa-var-facebook; }
+.#{$fa-css-prefix}-google:before { content: $fa-var-google; }
+.#{$fa-css-prefix}-skype:before { content: $fa-var-skype; }
+.#{$fa-css-prefix}-youtube:before { content: $fa-var-youtube; }
+.#{$fa-css-prefix}-dribbble:before { content: $fa-var-dribbble; }
+.#{$fa-css-prefix}-list:before { content: $fa-var-list; }
+.#{$fa-css-prefix}-th-list:before { content: $fa-var-th-list; }
+.#{$fa-css-prefix}-bars:before { content: $fa-var-bars; }
+.#{$fa-css-prefix}-twitter:before { content: $fa-var-twitter; }
+.#{$fa-css-prefix}-times:before { content: $fa-var-close; }
+.#{$fa-css-prefix}-search-plus:before { content: $fa-var-search-plus; }
+.#{$fa-css-prefix}-share-square-o:before { content: $fa-var-share-square-o; }
